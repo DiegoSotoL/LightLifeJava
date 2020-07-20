@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/tv_popup4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="30dp"
+        android:textSize="22sp"
+        android:text="Las frutas y verduras te aportan vitaminas y minerales, ademas son los alimentos que más agua proporcionan al cuerpo.Consume 5 frutas o verduras al dia"/>
+</RelativeLayout>

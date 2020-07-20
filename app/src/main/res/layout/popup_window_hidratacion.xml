@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/tv_popup4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="30dp"
+        android:textSize="22sp"
+        android:text="Para mantener un estado saludable a lo largo de toda nuestra vida, es imprescindible que nos aseguremos de estar correctamente hidratados.Consume 5 vasos de agua al dia"/>
+
+</RelativeLayout>

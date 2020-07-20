@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/diarioFragment"
+            android:icon="@drawable/ic_book_24px"
+            android:title="Diario" />
+        <item
+            android:id="@+id/alimentacionFragment"
+            android:icon="@drawable/ic_restaurant_24px"
+            android:title="Alimentacion" />
+        <item
+            android:id="@+id/actividadesFragment"
+            android:icon="@drawable/ic_fitness_center_24px"
+            android:title="Actividades" />
+        <item
+            android:id="@+id/canjearPuntosFragment"
+            android:icon="@drawable/ic_emoji_events_24px"
+            android:title="Canjear Puntos" />
+
+    </group>
+</menu>

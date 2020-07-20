@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/tv_popup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="30dp"
+        android:textSize="22sp"
+        android:text="Los abdominales son muy beneficiosos, estos reduciran tu dolor de espalda, mejorarar tu postura, ayudara aprevenir lesiones y te ayudara a respirar mejor, realiza 25 abdominales diarios"/>
+
+</RelativeLayout>

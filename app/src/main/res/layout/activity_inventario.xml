@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    tools:context=".ui.puntos.CanjearPuntosFragment">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="616dp"
+        android:background="#FFFFFFFF"
+        android:baselineAligned="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+
+                android:text="ARMAS" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/noPoseeArmas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="NO POSEE NINGUN ARMA DISPONIBLE" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr_espada"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/espada" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:text="Espada Magica:Esta espada contiene un gran poder magico en su interior" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr_baculo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/baculo_puntas" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Baculo potenciador:Este baston potencia tus poderes de naturaleza ignea." />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="SOMBREROS" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/noPoseeSombreros"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="NO POSEE NINGUN SOMBRERO DISPONIBLE" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr_gorro"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="69dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/sombrero" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Sombrero Potenciador:Este Sombrero, fue propiedad de la gran bruja Zhlok, potencia tus ataques de sombra" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr_yelmo"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/yelmo" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:text="Yelmo de Placas:Mantendra tu cabeza a salvo de todas las amenazas" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="VESTIMENTA" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/noPoseeVestimenta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text='NO POSEE NINGUNA VESTIMENTA DISPONIBLE' />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr_armadura"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/armadura" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="#FFFFFFFF"
+                android:gravity="center"
+                android:text="Armadura de Obsidiana:Esta armadura resistira hasta la llamarada de un dragon" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr_toga"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/traje_mago" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Toga Luminosa: Esta vestimenta te permitira moverte con libertad, pontencia los ataques aquaticos" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="|" />
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

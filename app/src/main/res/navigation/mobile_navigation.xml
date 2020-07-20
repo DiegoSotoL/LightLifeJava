@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/diarioFragment">
+
+    <fragment
+        android:id="@+id/diarioFragment"
+        android:name="com.diegosl.lightlifejava.ui.diario.DiarioFragment"
+        android:label="Diario"
+        tools:layout="@layout/fragment_diario" />
+    <fragment
+        android:id="@+id/alimentacionFragment"
+        android:name="com.diegosl.lightlifejava.ui.alimentacion.AlimentacionFragment"
+        android:label="Alimentacion"
+        tools:layout="@layout/fragment_alimentacion" />
+    <fragment
+        android:id="@+id/actividadesFragment"
+        android:name="com.diegosl.lightlifejava.ui.actividades.ActividadesFragment"
+        android:label="Actividades"
+        tools:layout="@layout/fragment_actividades" />
+    <fragment
+        android:id="@+id/canjearPuntosFragment"
+        android:name="com.diegosl.lightlifejava.ui.puntos.CanjearPuntosFragment"
+        android:label="Canjear Puntos"
+        tools:layout="@layout/fragment_canjear_puntos" />
+</navigation>
